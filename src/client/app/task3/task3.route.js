@@ -20,11 +20,7 @@
           templateUrl: 'app/task3/task3.html',
           controller: 'Task3Controller',
           controllerAs: 'vm',
-          title: 'Task 3',
-          settings: {
-            nav: 2,
-            content: '<i class="fa fa-lock"></i> Task3'
-          }
+          title: 'Task 3'
         }
       }
     ];

@@ -5,7 +5,7 @@
     .module('app.task4')
     .controller('Task4Controller', Task4Controller);
 
-  Task4Controller.$inject = ['logger'];
+  // Task4Controller.$inject = ['logger'];
   /* @ngInject */
   function Task4Controller(logger) {
     var vm = this;

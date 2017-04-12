@@ -34,19 +34,6 @@
 </head>
 
 <body>
-  <!-- <div>
-    <div ng-include="'app/layout/shell.html'"></div>
-    <div id="splash-page" ng-show="showSplash">
-      <div class="page-splash">
-        <div class="page-splash-message">
-          exercise
-        </div>
-        <div class="progress progress-striped active page-progress-bar">
-          <div class="bar"></div>
-        </div>
-      </div>
-    </div>
-  </div> -->
   <nav class="navbar navbar-default navbar-static-top">
       <div class="container">
           <div class="navbar-header">
@@ -60,10 +47,10 @@
 
   <div class="container">
       <ul class="nav nav-tabs">
-          <li class="active"><a href="#task1" role="tab" data-toggle="tab">Task 1</a></li>
-          <li><a href="#task2" role="tab" data-toggle="tab">Task 2</a></li>
-          <li><a href="#task3" role="tab" data-toggle="tab">Task 3</a></li>
-          <li><a href="#task4" role="tab" data-toggle="tab">Task 4</a></li>
+          <li><a href="#task1" ui-sref="task1" role="tab" data-toggle="tab">Task 1</a></li>
+          <li><a href="#task2" ui-sref="task2"  role="tab" data-toggle="tab">Task 2</a></li>
+          <li><a href="#task3" ui-sref="task3" role="tab" data-toggle="tab">Task 3</a></li>
+          <li><a href="#task4" ui-sref="task4" role="tab" data-toggle="tab">Task 4</a></li>
       </ul>
       <div ui-view></div>
   </div>
