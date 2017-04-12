@@ -266,5 +266,3 @@ The `blocks.router` module contains a routing helper module that assists in addi
     ```
 
 ## License
-
-MIT
