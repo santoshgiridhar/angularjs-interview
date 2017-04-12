@@ -34,7 +34,7 @@
 </head>
 
 <body>
-  <div>
+  <!-- <div>
     <div ng-include="'app/layout/shell.html'"></div>
     <div id="splash-page" ng-show="showSplash">
       <div class="page-splash">
@@ -46,6 +46,26 @@
         </div>
       </div>
     </div>
+  </div> -->
+  <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+          <div class="navbar-header">
+
+              <a class="navbar-brand" href="#">Interview Exercise</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+          </div>
+      </div>
+  </nav>
+
+  <div class="container">
+      <ul class="nav nav-tabs">
+          <li class="active"><a href="#task1" role="tab" data-toggle="tab">Task 1</a></li>
+          <li><a href="#task2" role="tab" data-toggle="tab">Task 2</a></li>
+          <li><a href="#task3" role="tab" data-toggle="tab">Task 3</a></li>
+          <li><a href="#task4" role="tab" data-toggle="tab">Task 4</a></li>
+      </ul>
+      <div ng-view></div>
   </div>
 
   <!-- build:js js/lib.js -->
@@ -73,7 +93,10 @@
   <script src="/src/client/app/core/core.module.js"></script>
   <script src="/src/client/app/dashboard/dashboard.module.js"></script>
   <script src="/src/client/app/layout/layout.module.js"></script>
+  <script src="/src/client/app/task1/task1.module.js"></script>
   <script src="/src/client/app/task2/task2.module.js"></script>
+  <script src="/src/client/app/task3/task3.module.js"></script>
+  <script src="/src/client/app/task4/task4.module.js"></script>
   <script src="/src/client/app/widgets/widgets.module.js"></script>
   <script src="/src/client/app/admin/admin.controller.js"></script>
   <script src="/src/client/app/admin/admin.route.js"></script>
@@ -88,11 +111,18 @@
   <script src="/src/client/app/dashboard/dashboard.controller.js"></script>
   <script src="/src/client/app/dashboard/dashboard.route.js"></script>
   <script src="/src/client/app/layout/ht-sidebar.directive.js"></script>
+  <script src="/src/client/app/task1/task1.directive.js"></script>
   <script src="/src/client/app/layout/ht-top-nav.directive.js"></script>
   <script src="/src/client/app/layout/shell.controller.js"></script>
   <script src="/src/client/app/layout/sidebar.controller.js"></script>
+  <script src="/src/client/app/task1/task1.controller.js"></script>
+  <script src="/src/client/app/task1/task1.route.js"></script>
   <script src="/src/client/app/task2/task2.controller.js"></script>
   <script src="/src/client/app/task2/task2.route.js"></script>
+  <script src="/src/client/app/task3/task3.controller.js"></script>
+  <script src="/src/client/app/task3/task3.route.js"></script>
+  <script src="/src/client/app/task4/task4.controller.js"></script>
+  <script src="/src/client/app/task4/task4.route.js"></script>
   <script src="/src/client/app/widgets/ht-img-person.directive.js"></script>
   <script src="/src/client/app/widgets/ht-widget-header.directive.js"></script>
   <!-- endinject -->
