@@ -10,11 +10,5 @@
   function Task3Controller(logger) {
     var vm = this;
     vm.title = 'Task 3';
-
-    // activate();
-    //
-    // function activate() {
-    //   logger.info('Activated Task2 View');
-    // }
   }
 })();

@@ -5,7 +5,6 @@
     .module('app.task2')
     .controller('Task2Controller', Task2Controller);
 
-  // Task2Controller.$inject = ['logger'];
   /* @ngInject */
   function Task2Controller(logger) {
     var vm = this;
