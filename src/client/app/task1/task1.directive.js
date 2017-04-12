@@ -39,7 +39,7 @@
             //>> (Sign-propagating right shift)
             // 9 >> 2 yields 2:
             //& (Bitwise AND)
-            return String.fromCharCode(0xD800 + (codePt >> 10), 0xDC00 + (codePt & 0x3FF));
+            return String.fromCharCode(0xD800 + (codePt >> 10), 0xDC00 + (codePt & 0x3FF));// jshint ignore:line
           }
           return String.fromCharCode(codePt);
         }

@@ -11,10 +11,10 @@
     var vm = this;
     vm.title = 'Task 2';
 
-    activate();
-
-    function activate() {
-      logger.info('Activated Task2 View');
-    }
+    // activate();
+    //
+    // function activate() {
+    //   logger.info('Activated Task2 View');
+    // }
   }
 })();

@@ -2,8 +2,8 @@
   'use strict';
 
   angular.module('app.task1', [
-    'app.core',
-    'app.widgets'
+    'app.core'
+    // 'app.widgets'
   ]);
 
 })();
